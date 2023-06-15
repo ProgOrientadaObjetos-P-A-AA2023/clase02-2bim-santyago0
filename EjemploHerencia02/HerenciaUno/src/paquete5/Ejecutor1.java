@@ -19,7 +19,8 @@ public class Ejecutor1 {
         
                 
         EstudianteDistancia estDistancia = new EstudianteDistancia(nombre,
-                apellido, identificacion, edad, numAsignaturas, costoAsig);
+                apellido, identificacion, edad, numAsignaturas, 
+                costoAsig);
         
         estDistancia.calcularMatriculaDistancia();
         
