@@ -17,13 +17,13 @@ public class Ejecutor2 {
         // 1. Crear y presentar un obj de tipo Estudiante Presencial,
         // con datos por teclado
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         
         EstudiantePresencial[] listado = new EstudiantePresencial[4];
         
         for(int i = 0; i<listado.length; i++) {
             System.out.println("Ingrese el Estudiante ("+(i+1)+"):");
             
-            entrada.useLocale(Locale.US);
             System.out.println("Ingrese nombre");
             String n = entrada.nextLine();
             System.out.println("Ingrese apellido");
