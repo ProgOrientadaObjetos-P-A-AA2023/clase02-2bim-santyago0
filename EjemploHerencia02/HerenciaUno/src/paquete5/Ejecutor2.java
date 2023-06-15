@@ -47,7 +47,7 @@ public class Ejecutor2 {
         }
         
         for(int i = 0; i<listado.length; i++) {
-            System.out.printf("%s (%d)\n\t%s\n",
+            System.out.printf("%s(%d)\n%s\n",
                     "Estudiante Presencial ",
                     i+1,
                     listado[i]);
